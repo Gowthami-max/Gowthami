@@ -1,0 +1,84 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    text-align: center;
+    background: #a1c4fd; /* default background */
+    background-size: cover;
+    transition: background 0.5s ease;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .input-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px;
+    border: none;
+    background: #3a7bd5;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .location-btn {
+    background: #1e3c72;
+    margin-bottom: 20px;
+  }
+  
+  .weather-card {
+    margin-top: 20px;
+    transition: opacity 0.5s;
+  }
+  
+  .hidden {
+    opacity: 0;
+  }
+  
+  .weather-card img {
+    width: 100px;
+  }
+  
+  .weather-info {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  @media (max-width: 500px) {
+    .input-group {
+      flex-direction: column;
+    }
+  
+    button, input {
+      width: 100%;
+    }
+  }
+  
