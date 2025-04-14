@@ -1,7 +1,10 @@
-Date: [15-04-2025]
-Project Name: [Weather App]
-Author: [Gowthami.M]
-Mentor: [Neela Santhosh]
+DATE : [15-04-2025]
+PROJECT NAME : [API Integration]
+AUTHOR'S NAME : [Gowthami.M]
+MENTOR NAME : [Neela Santhosh] 
+INTERN ID : [CT04WK60]
+DOMAIN : [Full Stack Development]
+COMPANY : [CODTECH IT SOLUTIONS]
 
 What I Did
 Today, I uploaded the first version of my project to GitHub. This marks the beginning of version control for the work I’m doing. I wanted to make sure all my files were backed up, organized, and available in one place online, where I could also track my progress and return to older versions if needed.
